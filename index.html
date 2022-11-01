@@ -14,6 +14,7 @@
 
     <nav>
         <ul>
+            <!-- Adding IDs to these list items to manually center them in the desktop viewport - see media info in css -->
             <li>
                 <a href="#aboutme">About Me</a>
             </li>
@@ -26,11 +27,11 @@
         </ul>
     </nav>
 
-    <section>
+    <section class="main-sections">
         <!-- In order for the CSS command to scroll to an anchor, it must be nested in a div. -->
         <div id="aboutme">
         <h2>About Me</h2>
-        <img src="assets/images/miller_c.jpg" alt="photo of Carlee Miller - benevolent overlord">
+        <img src="assets/images/miller_c.jpg" alt="photo of Carlee Miller - benevolent overlord" width="33%" height="auto">
         <p>Carlee Miller <i>creator</i></p>
         <h3>Hobbies, Interests, Etc.</h3>
         <ul>
@@ -41,27 +42,26 @@
         </div>
     </section>
 
-    <section>
+    <section class="main-sections">
       <div id="projects">
         <h2>Projects & Works</h2> 
           <div>
             <!-- The heading and the clickable images are separate -->
             <h3>Project 1</h3> 
-            <a href="#"><img src="assets/images/Untitled500-400.png" alt="description of first project image"></a>
+            <a href="#"><img src="assets/images/project-image.png" class="thumbnail" height="auto" width="100%" alt="description of first project image"></a>
           </div> 
           <div>
             <h3>Project 2</h3> 
-            <a href="#"><img src="assets/images/Untitled500-400.png" alt="description of second project image"></a> 
-            <!-- keeping here for reference, ignore: style="width:100px;height:100px;"-->
+            <a href="#"><img src="assets/images/project-image.png" class="thumbnail" height="auto" width="100%" alt="description of second project image"></a> 
           </div> 
           <div>
             <h3>Project 3</h3> 
-            <a href="#"><img src="assets/images/Untitled500-400.png" alt="description of second project image"></a>
+            <a href="#"><img src="assets/images/project-image.png" class="thumbnail" height="auto" width="100%" alt="description of second project image"></a>
           </div>  
         </div>
     </section>
 
-    <section>
+    <section class="main-sections">
       <div id="contact">
         <h2>Contact Me</h2>
         <ul>
