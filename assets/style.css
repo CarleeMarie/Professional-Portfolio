@@ -1,0 +1,23 @@
+/* This code should have the page scrolling smoothly to anchors on the main page when a nav link is clicked. Source is from stackoverflow, question 7717527. */
+html {
+    scroll-behavior:smooth
+}
+
+/* This code down to the media queries at the bottom applies from 0px to 600px */
+body {
+    background-color: #110041;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #EDEBF3;
+}
+
+
+    
+
+ /* These media queries adapt the styling to screens larger than 600px.  */
+ @media (min-width: 600px) {
+    body {
+        background-color: #EDEBF3;
+        color: #110041;
+    }
+ }
+
